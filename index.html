@@ -8,12 +8,15 @@
     <title>Test</title>
 </head>
 <body style>
-    <form id="login-form">
+    <form class="hidden" id="login-form">
         <input required maxlength="15" type="text" placeholder="What is your name?"></input>
         <input required maxlength="15" type="text" placeholder="What is your name?"></input>
         <h1 id="greeting" class="hidden"></h1>
-        <input type="submit" value="Login" />
+        <input type="submit" value="Login" />   
     </form>
-    <script src="app.js"></script>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="clock">00:00:00</h2>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
 </body>
 </html>
